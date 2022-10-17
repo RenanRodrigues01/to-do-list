@@ -1,0 +1,21 @@
+html {
+    background: radial-gradient(farthest-corner at right top,#21A09D, #06182D);
+    height: 100%;
+}
+
+.principal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    background-color: #21A09D;
+    width: 70vh;
+    padding: 4em 2em 2em;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
