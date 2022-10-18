@@ -7,15 +7,60 @@ html {
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 1em;
     background-color: #21A09D;
     width: 70vh;
     padding: 4em 2em 2em;
     margin: 0 auto;
     margin-top: 10%;
+    border-radius: 10px;
 }
 
 .formulario {
     display: flex;
-    flex-direction: column;
+    align-items: baseline;
+}
+   
+.lista li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.lista li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.botao {
+    height: 54px;
+    background-color: #06182D;
+    color: aqua;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+.texto{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0.5em 0 1em;
+    padding: 1em 0.5em;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid #40112D;
+}
+
+.texto::placeholder {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-position: 0.5em;
 }
