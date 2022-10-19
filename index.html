@@ -9,23 +9,19 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+    <header>
+        <h1 class="titulo">Lista de Tarefas</h1>
+    </header>
     <main class="principal">
-        <form class="formulario">
-            <input type="text" name="item" id="item" placeholder="Adicione uma tarefa" class="texto">
-            <input type="button" value="adicionar" class="botao">
+        <form class="formulario" id="formulario">
+            <input type="text" name="texto" id="texto" placeholder="Adicione uma tarefa" class="texto">
+            <input type="submit" value="Adicionar" class="botao" id="botao">
         </form>
 
         <ul class="lista" id="lista">
-            <li>
-               limpar a casa 
-            </li>
-            <li>
-                tirar o lixo
-            </li>
-            <li>
-               colocar raçao para o cachorro 
-            </li>
+           
         </ul>
     </main>
+    <script src="main.js"></script>
 </body>
 </html>
