@@ -9,7 +9,7 @@ tarefas.forEach( (elemento) => {
 form.addEventListener("submit", (evento) => {
     evento.preventDefault();
     const txt = evento.target.elements['texto'];
-    console.log(txt);
+    
     const tarefa = {
         "tarefa": txt.value
     }
